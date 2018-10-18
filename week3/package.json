@@ -1,0 +1,38 @@
+{
+    "name": "basic_mongo_node",
+    "version": "1.0.0",
+    "description": "A class project to work with mongo client api using node.",
+    "main": "index.js",
+    "scripts": {
+      "build": "babel mongo_async.js --out-dir dist"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://oddlylabs.com/Humber/full_stack_lab3_api.git"
+    },
+    "keywords": [
+      "mongo",
+      "node"
+    ],
+    "author": "OddlyTimbot",
+    "license": "ISC",
+    "dependencies": {
+      "co": "^4.6.0",
+      "mongodb": "^3.0.2"
+    },
+    "babel": {
+      "plugins": [
+        "transform-es2015-modules-commonjs",
+        "transform-async-to-generator"
+      ]
+    },
+    "files": [
+      "dist"
+    ],
+    "devDependencies": {
+      "babel-plugin-transform-es2015-modules-commonjs": "6.8.0",
+      "babel-plugin-transform-async-to-generator": "6.8.0",
+      "babel-cli": "6.8.0"
+    }
+  }
+  
