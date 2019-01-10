@@ -9,15 +9,15 @@ These will include:
 1. The Terminal
 2. Common unix commands
 3. Code versioning with Git
-4. Collaborative coding
+4. Collaborative coding with collaborators, issues, and pull requests
 5. Documentation with Markdown
-6. Use of automation software with NPM
 
 Outcomes:
 
 1. Creation of your first code repository
-2. Initialization of your coding environment
-3. Setting up versioning and workflow using the week1 directory
+2. Initialization of your local coding environment
+3. Adding a collaborator, milestone, and issue
+4. Issuing a pull request
 
 ## Lesson Description
 
