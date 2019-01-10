@@ -28,39 +28,77 @@ Once you have an account, you can request access to the Humber organization on O
 
 After you have been accepted to the "Humber" organization you'll be able to view the available code repositories. You'll be using the "full_stack_lab1" repository as a starting point.
 
+### Installing a Git client
+
+To use your new account, you'll need to have a git client installed on the system you wish to use. Fortunately, git clients exist for nearly every operating system.
+
+You can find guides for installing git for Windows, MacOS, and Linux here:
+
+[Installing Git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
+
+At the end of the installation process, you'll be able to use the git client, preferably from the command-line. In this course, it is _highly_ encouraged to use the command line to achieve things whenever possible, and this is particularly true of code versioning.
+
+Full Stack developers are command-line junkies. While at first the command line can seem strange, it is the one tool that can always be counted on in any environment to work quickly and efficiently.
+
+To test out your new Git installation, we will do a basic cloning operation that will let you get the latest course materials onto your system.
+
 ### Cloning Course Materials
+
+It is important to understand that this course runs like an open-source project. At any time, documentation and code examples in the course materials may be updated based on feedback from students. You'll want to use git to ensure you always have the most up-to-date version of the documentation.
 
 In this step, we will clone the course materials to your local system. This will show you how to clone with Git, and will verify that your account access is working. Additionally this local copy of the materials can be used to stay up to date and to ensure you always have the latest information.
 
-`git clone PASTE_URL_HERE`
+Open up your terminal (or command line) and browse to a location you would like to work from. If you are unfamiliar with using the command line to move around your directories, the most common commands you'll need are the `cd` for change-directory, and `ls` to list the contents of a directory. You can make a new folder with the `mkdir` command.
 
-You'll be prompted to enter your username and then your password.
+Make a directory to contain the course materials and your own work.
+
+`mkdir humber`
+
+Enter that new directory.
+
+`cd humber`
+
+Now you can clone the course materials from the remote repository using the Git client.
+
+`git clone https://oddlylabs.com/Humber/Full_Stack_Developer.git`
+
+You'll be prompted to enter your username and then your password. In short order, you'll see a new folder in your directory. Inside it will be all the course materials. These can be opened up in your code editor.
+
+As a student, you have read-only access to the course materials repo. At any time you can update the repo using the `pull` command. To try it out, cd into the directorly like so:
+
+`cd Full_Stack_Developer`
+
+From within the folder, do a pull operation to fetch latest updates:
+
+`git pull origin master`
+
+In the above command, we have asked for any updates from "origin", which is the name applied to the online repository we originally cloned the materials from. We have asked for the "master" branch, which should be considered the production-ready branch of the materials.
+
+Most likely, you have the most up-to-date materials, but from time to time you may wish to refresh them by repeating the pull operation.
+
+Now it's time to set up your very own repo!
 
 ### Creating your Repo
 
 In this step, you will create your own repository for your course. This will be used to submit all of your assignments, and in the end will provide an outstanding profile of all of your activities.
 
-### Adding a Remote
+Return to your dashboard by logging in with your account at Oddlylabs.
 
-With git, every initialized folder contains a .git subfolder that contains configuration and a complete history of the project code. One of those configuration options is called the "remote" information. This is information about any remote servers you wish to coordinate with. You can coordinate with as many servers, identified by URL locations, as you wish.
+From the dashboard, on the right you will see a link called "My Repositories" with a plus-sign. Click the plus-sign to create your first repository.
 
-When you first clone a project, the remote information includes one server - the one you cloned the project from. It's root URL is labelled "origin".
+[Watch Creating A Repo](https://youtu.be/-ngFD7hQ47k?t=433)
 
-If you wish to coordinate with another repository (such as your own) it is a matter of adding that other repository as a remote. The command looks like this:
+The most important points of the video are that you _must_ include a gitignore file and a license in your repo!
 
-`git remote add SOME_LABEL_HERE HTTPS://SOME_REPO_URL_HERE`
+Once the repo is created, you'll be able to clone it to your local system just as you did with the course material. You can retrieve the URL of your repo by visiting the repo's home page Move up to your humber directory, and clone your repo into it.
 
-So for example if I wish to copy the code I have cloned into my own repo I want to move add a remote label and URL to the repo in my account. It might look like this:
+`cd ..` - to move up a directory
 
-`git remote add oddly https://oddlylabs.com/OddlyTimbot/example_lab.git`
+`git clone ADDRESS_OF_MY_REPO_HERE`
 
-After that, I can work with either the original code repo by using the remote label 'origin', or I can work with my own repo by referring to is as 'oddly' in my git commands. The first command I should use is the one to push all the code up into the "master" branch at the newly added remote.
+### Creating a Branch (and working!)
 
-`git push oddly master`
-
-Because this command refers to the master branch at 'oddly' the code will be pushed into my own repo, rather than the one I cloned from (which you will recall is referred to as 'origin' by default)
-
-_See if you can make some changes to the README file and get those changes into your own repo_
+You have a remote repo, and you have cloned a local version of it. You're ready to do work!
 
 ### Add a Collaborator
 
@@ -107,7 +145,7 @@ Okay, now you have a task to complete.
 
 Remember, it is a good idea to never work within the "master" branch!! You'll want to create a new branch to work from. Back in the terminal, use the following command to create a working branch from the master.
 
-`git checkout -b working_branch`
+`git checkout -b week1`
 
 You'll get a message indicating a new branch was created, and you can feel free to edit the README file according to the information required by the issue you assigned yourself.
 
@@ -119,13 +157,9 @@ When the file is ready, add it and commit it to your branch.
 
 Remember, all the work you've done has been on your local machine. Now it is time to let the remote server know about your new branch. Push your branch into the remote repo. The command will look like this:
 
-`git push YOUR_REPO_LABEL`
+`git push origin week1`
 
-In the example above, I added a remote called 'oddly' using the `git remote add` command. Therefore to push to that remote repo my command would look like this:
-
-`git push oddly working_branch`
-
-Off it goes to the remote repo. You can confirm this by going to the dashboard for the repo, where you will now find TWO branches available. One of them will have the "working_branch" name you created.
+Off it goes to the remote repo. You can confirm this by going to the dashboard for the repo, where you will now find TWO branches available. One of them will have the "week1" name you created.
 
 ### The Pull Request
 
