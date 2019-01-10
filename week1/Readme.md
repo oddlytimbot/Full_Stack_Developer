@@ -37,6 +37,6 @@ With code versioning, collaboration, and environment set up you'll learn the bas
 
 Each lab of the course comes with a corresponding wiki that contains additional helpful information. For lab 1, the following resources are available:
 
-- [History of Full Stack](https://oddlylabs.com/Humber/full_stack_lab_1/wiki)
-- [Common Unix Commands](https://oddlylabs.com/Humber/full_stack_lab_1/wiki/The+Command+Line)
-- [Collaborative Coding](https://oddlylabs.com/Humber/full_stack_lab_1/wiki/Collaborative+Coding)
+- [History of Full Stack](https://oddlylabs.com/Humber/Full_Stack_Developer/src/master/week1/wiki/command_line.md)
+- [Common Unix Commands](https://oddlylabs.com/Humber/Full_Stack_Developer/src/master/week1/wiki/command_line.md)
+- [Collaborative Coding](https://oddlylabs.com/Humber/Full_Stack_Developer/src/master/week1/wiki/collab_coding.md)
