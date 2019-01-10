@@ -1,4 +1,4 @@
-# full_stack_lab_1
+# Lab 1
 
 Welcome to lab 1 of the full stack development course.
 
@@ -9,7 +9,7 @@ These will include:
 1. The Terminal
 2. Common unix commands
 3. Code versioning with Git
-4. Collaborative coding with collaborators, issues, and pull requests
+4. Collaborative coding using collaborators, issues, and pull requests
 5. Documentation with Markdown
 
 Outcomes:
