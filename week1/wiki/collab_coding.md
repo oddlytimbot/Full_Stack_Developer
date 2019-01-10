@@ -16,17 +16,29 @@ The most important features of a collab environment include:
 
 To get familiar with all of these features, you will simulate a typical production environment. You'll start by joining an organization at oddlylabs using the membership you received during registration.
 
-Once you've joined the "Humber" organization you'll be able to view the available code repositories. You'll be using the "full_stack_lab1" repository as a starting point.
+### Joining Oddlylabs
 
-Copy the URL of the repository. You'll need it in the next step.
+The first step for this course will be joining the Oddlylabs git community, which requires a valid email address. You can use your school email address for this, but it is highly recommended to use an email address you will look at often and that will remain once you are finished your course.
 
-Open up your Cloud9 development IDE environment. (The link is available in your profile at your leafletlearning account). If your IDE has gone dormant, don't worry, it just takes a moment for it to "spin up" and become active again.
+[Watch Creating Account](https://youtu.be/-ngFD7hQ47k)
 
-Enter the terminal and clone the repo for lab 1.
+Once you have an account, you can request access to the Humber organization on Oddlylabs. To do so, use the following form:
+
+[Join Humber Organization](https://goo.gl/forms/jb7IsYIxhnxTNtBL2)
+
+After you have been accepted to the "Humber" organization you'll be able to view the available code repositories. You'll be using the "full_stack_lab1" repository as a starting point.
+
+### Cloning Course Materials
+
+In this step, we will clone the course materials to your local system. This will show you how to clone with Git, and will verify that your account access is working. Additionally this local copy of the materials can be used to stay up to date and to ensure you always have the latest information.
 
 `git clone PASTE_URL_HERE`
 
 You'll be prompted to enter your username and then your password.
+
+### Creating your Repo
+
+In this step, you will create your own repository for your course. This will be used to submit all of your assignments, and in the end will provide an outstanding profile of all of your activities.
 
 ### Adding a Remote
 
@@ -48,7 +60,7 @@ After that, I can work with either the original code repo by using the remote la
 
 Because this command refers to the master branch at 'oddly' the code will be pushed into my own repo, rather than the one I cloned from (which you will recall is referred to as 'origin' by default)
 
-*See if you can make some changes to the README file and get those changes into your own repo*
+_See if you can make some changes to the README file and get those changes into your own repo_
 
 ### Add a Collaborator
 
@@ -125,7 +137,7 @@ To make a pull request, you'll go to the "pull requests" tab, and click on "new 
 
 `https://oddlylabs.com/YOUR_USER_NAME/YOUR_REPO_NAME/pulls`
 
-Your goal is to merge your new branch into the master. The branch you are merging into is known as the *base* branch. So leave "master" as the base, and select your working branch as the branch to merge in.
+Your goal is to merge your new branch into the master. The branch you are merging into is known as the _base_ branch. So leave "master" as the base, and select your working branch as the branch to merge in.
 
 On the right, you have options to assign a label (such as "enhancement"), and then the most important part - the assignee. Assign one of the collaborators you added to the repo in an earlier step. (If you have not added any collaborators you'll have to stop here, go back, and add at least one person).
 

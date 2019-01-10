@@ -10,7 +10,7 @@ In the past, development for the web was usually divided into two very distinct 
 
 ### Front End Developing
 
-Developing for the front end involved working in HTML, CSS, and Javascript with an emphasis on user interaction. 
+Developing for the front end involved working in HTML, CSS, and Javascript with an emphasis on user interaction.
 
 ### Back End Developing
 
@@ -46,6 +46,16 @@ In 2010 Isaac Z. Schluter introduced a tool "npm", which stands for "node packag
 
 The tool and corresponding online registry took off, with many developers finding their way to it from the Github community and contributing their source code. The number of repositories listed in npmjs and hosted on Github multiplied exponentially, with libraries appearing for every conceivable task. Node itself continued to gain momentum, pushing out beyond the server and into more architectures finding it's way onto the growing "internet of things" movement.
 
+### Virtualization of I.T.
+
+While node showed the benefits of working from a single code language across the entire app architecture, one problem kept developers from realizing the full benefits of the stack - the I.T. While node could run on any hardware setup, the configuration of that hardware might vary wildly from one environment to another. For example node applications could run on Windows, MacOS, or the dozens of variations of Linux. But those apps still ran into problems with things like file permissions, user accounts, port conflicts, dependencies, and the many other factors reliant on the operating system.
+
+The first solution to this problem was virtualization. Tools like Vagrant allowed developers to set up virtual environments by installing multiple kernels on their development systems. Still more tools were created to configure those environment's settings (like Chef and Puppet). And still more tools were created for resolving code dependencies.
+
+In 2013 a new tool arrived called Docker. Docker took a radically different approach to virtualization by providing a base machine, on which could be built images of not just operating systems, but entire systems, including settings, dependencies, everything.
+
+Since that time, Docker has grown in popularity to become the defacto standard for developers working in the full-stack.
+
 ### Javascript Eating the World
 
 Given the relatively short period of time during which full-stack development emmerged, and it's heavy reliance on javascript, it was common to hear that javascript was "eating the world". A great many tasks that formerly required dedicated back-end languages to perform were now being done in Javascript.
@@ -53,4 +63,3 @@ Given the relatively short period of time during which full-stack development em
 But along with the proliferation of new tools came a phenomenon many termed "javascript fatigue" - simply put, too much of a good thing. As developers used to working on the front-end began to flex their tool-making muscles it became extremely challenging to keep up with the wave of tools and methodologies that would arrive, gain popularity, then be replaced.
 
 While this phenomenon has improved to some degree, the rate of change in the world of full-stack development remains robust, and students should be prepared for the joys (and effort!) of continually learning if they take on the unique challenges of full-stack development.
-

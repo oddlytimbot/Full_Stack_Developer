@@ -2,7 +2,7 @@
 
 Welcome to lab 1 of the full stack development course.
 
-In this lab we will get our environments up and running, including getting familiar with many of the tools commonly used in creating full end-to-end software with modern technologies.
+The purpose of this first lab is to ensure that you can get up and running, complete your assignments, and learn about all facets of being a full-stack developer through experimentation. We will be getting familiar with many of the tools commonly used in creating full end-to-end software with modern technologies.
 
 These will include:
 
@@ -17,7 +17,7 @@ Outcomes:
 
 1. Creation of your first code repository
 2. Initialization of your coding environment
-3. Launch of your first Node server
+3. Setting up versioning and workflow using the week1 directory
 
 ## Lesson Description
 

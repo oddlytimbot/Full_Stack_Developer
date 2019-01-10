@@ -60,6 +60,10 @@ A container is a runtime instance of an image - what the image becomes in memory
 
 We are ready to test our docker installation by installing an image. Make sure your Docker quickstart terminal is running, and in the terminal let's install a very basic image. When we do so, the image will be downloaded and stored on our system for use in launching containers - applications running with that image.
 
+For this example, we will use one of the official Docker images. A link to this one can be found here:
+
+[Official Hello World](https://hub.docker.com/_/hello-world)
+
 In the terminal, type:
 
 `docker run hello-world`
@@ -115,7 +119,7 @@ docker --version
 docker version
 docker info
 
-## Execute Docker image
+## Execute a Docker image (example)
 docker run hello-world
 
 ## List Docker images
