@@ -20,7 +20,7 @@ _With this first assignment, you will learn about:_
 
 My name is Tim, I’m frequently called “Timbot” in programming circles. I have a deep background in interactive development, having started in the early eighties on systems like the Commodore Vic20, Acorn, Timex-Sinclair 1000 and a variety of other computers that no longer exist. My favorite programming challenge then was re-creating my own versions of popular coin-op video games like Centipede, Pooyan, Joust and Robotron.
 
-![m'lady](https://oddlylabs.com/avatars/1?s=150)
+![Timbot](https://oddlylabs.com/avatars/1?s=150)
 
 ### Background
 
