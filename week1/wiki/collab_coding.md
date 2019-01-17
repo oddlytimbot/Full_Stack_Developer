@@ -122,7 +122,7 @@ With a couple of collaborators added, you're ready to assign some issues.
 
 With your repo ready to go and a couple of collaborators added, it's time for serious development. Your goals are:
 
-1. Update the README file using Markdown to include a brief description of yourself, and a link to both your profile on oddlylabs and a link to the cloud9 IDE you are working in.
+1. Update a README file in a `week1` sub-folder using Markdown to include a brief description of yourself, and a link to both your profile on oddlylabs and a link to the cloud9 IDE you are working in.
 2. Get a collaborator to approve and merge your work.
 3. Create an issue and assign it to a colloborator to get them to update the README file adding their own information.
 
@@ -147,11 +147,19 @@ Remember, it is a good idea to never work within the "master" branch!! You'll wa
 
 `git checkout -b week1`
 
-You'll get a message indicating a new branch was created, and you can feel free to edit the README file according to the information required by the issue you assigned yourself.
+You'll get a message indicating a new branch was created. You can now make a sub-folder in which to create your bio.
 
-When the file is ready, add it and commit it to your branch.
+`mkdir week1`
 
-`git add README.md`
+`cd week1`
+
+You can feel free to create and edit the README file according to the information required by the issue you assigned yourself.
+
+When the file is ready, go up to your main directory and add it and commit it to your branch.
+
+`cd ..`
+
+`git add ./week1/README.md`
 
 `git commit -m "completing issue for assignment 1, personal details added"`
 
