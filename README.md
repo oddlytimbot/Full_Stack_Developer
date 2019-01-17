@@ -19,7 +19,8 @@ In this first lesson, we get you up and running in a modern development environm
 - Install/Update a git client
 - Introduction to command-line
 - Create first repo, create a Readme and learn Markdown and versioning
-- Install Docker, test it
+
+View the in-class session [here](https://youtu.be/gNSqTDl5F9M)
 
 Week 2
 
