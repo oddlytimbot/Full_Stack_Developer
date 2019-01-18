@@ -28,7 +28,7 @@ This is critical for developer teams, allowing the application, configuration, a
 
 For this lesson, you will set up Docker and get it running on your system.
 
-_Note: before completing this portion of the week 1 lesson, you should have created your account at Oddlylabs.com and familiarized yourself with using Git_
+_Note: before completing this portion of the week 2 lesson, you should have created your account at Oddlylabs.com and familiarized yourself with using Git_
 
 Docker is built in the Go programming language. It includes the server itself and a client for communicating with the docker installation.
 
@@ -48,7 +48,7 @@ Confirm by running:
 
 _Lesson Requirement_
 
-Copy the output of `docker version` and `docker info`. Using markdown, place this information in the Readme file of your week1 folder in your code repository. This information must be properly formatted with markdown.
+Copy the output of `docker version` and `docker info`. Using markdown, place this information in the Readme file of your week2 folder in your code repository. This information must be properly formatted with markdown.
 
 ## Containers and Images
 
