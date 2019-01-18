@@ -10,25 +10,23 @@ When the next person tries to get up and running, will they know they need to fo
 
 We have options.
 
-In this lab we will update our environment to use a Debian-based distro, write automation shell scripts to add a secure key, update our sources, install, configure, and create a user for MongoDB.
+In this lab we will use Docker to launch a Debian-based distro contianer, write automation shell scripts to add a secure key, update our sources, install, configure, and create a user for MongoDB.
 
 Now we're talking full stack development!
 
+Following this we will take a look at using the official Docker images for Mongo Database.
+
 ### Covered
 
-* Working with SSH keys
-* Writing shell scripts
-* Secure installation of Mongodb
+- Working with SSH keys
+- Writing shell scripts
+- Secure installation of Mongodb
 
 In addition, once we've got our database installed we'll get busy learning about "schema-less" data.
 
-* Basics of Mongodb
-* Modelling document-based data 
-* Using the Repl
-* Inserting, finding, updating and removing documents
+- Basics of Mongodb
+- Modelling document-based data
+- Using the Repl
+- Inserting, finding, updating and removing documents
 
 By the completion of this lesson and assignments, any of your classmates should be able to easily clone your repo to a fresh environment, and get fully up and running with Mongo.
-
-### Assignment
-
-[Details Here](https://oddlylabs.com/Humber/full_stack_lab2_persistence/wiki/Assignment)

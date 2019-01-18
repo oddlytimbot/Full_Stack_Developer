@@ -177,9 +177,11 @@ Arguably installing mongo and getting it up and running via docker is easier tha
 
 For example, the first step above included updating the sources.list and adding a key in order to securely download mongo. This step is unnecessary when using an official docker image provided by mongo.
 
+[Dockerhub official image](https://hub.docker.com/_/mongo)
+
 With your docker quickstart running, try the following:
 
-`docker run --name some-mongo -d mongo:3.4.18-jessie`
+`docker run --name my-mongo -d mongo:3.4.18-jessie`
 
 The image will be downloaded, and a container with the name my-mongo will be started. You can confirm this by listing your running containers.
 
@@ -222,3 +224,15 @@ Once the admin user has been created, normal scripts can be used to create other
 `docker run -it --rm --link my-mongo:mongo mongo mongo --host mongo -u mongoadmin -p nojibbajabba --authenticationDatabase admin some-db`
 
 You should see the mongo repl and be able to run queries.
+
+## DockerFile and Docker-Compose
+
+Eventually, it will become impractical to do everything from the command-line in launching docker images. Additionally, we want to be able to code-version the configuration of our containers (like the mongo container we are working in).
+
+This is where "dockerfile" and "docker-compose" are used.
+
+A dockerfile is a concise formatted set of instructions for configuring a docker container from an image. It includes a variety of convenience functions for things like copying and moving files, running commands, and so forth.
+
+A docker-compose file describes one or more docker containers that should run concurrently for serving an app. It is written in a format called YML (yaml). Docker compose is a powerful tool for serving up modern full-stack development projects.
+
+In the next lesson we will use docker-compose to launch a set of containers for our first full-stack application.
