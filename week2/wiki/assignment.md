@@ -1,10 +1,10 @@
-## Assignment One
+## Assignment Two
 
 Let's do this!
 
 ### Purpose:
 
-In lab 2 we got our Debian environments up and running. We learned how to use shell scripts and install Mongo. We got as far as covering the basics of inserting data and doing queries with the REPL.
+In lab 2 we learn to use Docker to create containers from images. We learned how to use shell scripts and install Mongo. We got as far as covering the basics of inserting data and doing queries with the REPL.
 
 The following assignment will test and reinforce that knowledge of scripts, as well as expanding knowledge of Mongo queries, particularly operators.
 
@@ -12,21 +12,32 @@ As an equally important goal, the assignment should get people practicing collab
 
 ### Requirements:
 
-Working in a development branch of your Lab2 repo, create a shell script that makes a sample database. Add a colaborator to your repo and assign them an issue to review/test your work.
+Working in the week2 folder of your repo, create a readme markdown file describing how to install the Mongo image and launch a container from it.
 
-To complete the assignment, your reviewer should submit a pull request and assign the instructor to it "OddlyTimbot".
+Remember, you must include instructions for launching both a Mongo Server and a Mongo Client.
+
+Next, you will document a set of mongo commands/queries for:
+
+- Creating a database
+- Creating a user for the database
+- Inserting `insert` to create records
+- Using `find` to retrieve records
+- Using `update` to update records
+
+To complete the assignment, you must issue a pull request to a fellow student assigned as a collaborator. They should test the queries and complete the merge.
 
 ### Details:
 
 Based on our mongo installation script, create another script that instructs mongo to make a sample database, including one collection containing documents of your choosing. (For an example, take a look at the wiki, which contains some commands for an "actors" collection)
 
-To complete this, your script will need to:
+To complete this, your repl commands will need to:
+
 - "use" a database
 - create a user for the database
 - authenticate as the user
 - insert JSON-based documents in a collection
 
-When your script is complete, push your branch to your repo.
+When your commands are complete and documented, push your branch to your repo.
 
 Add a classmate as collaborator to the repo, and add your instructor "OddlyTimbot".
 
@@ -50,28 +61,27 @@ After closing the issue, submit a pull request with "master" as the base and the
 
 ### Checklist:
 
-* Did you work in a branch (not in master)?
-* Did you push your branch before starting?
-* Did you add all the collaborators you needed to at the beginning?
-* Were you descriptive and helpful in the issue assigned?
-* How elegant is your shell script?
-* Is your database/collection/record interesting? For example what about sub-objects?
-* Does your database give evidence you read the wiki resources?
-* Reviewer - did you ACTUALLY test before approving?
-* Reviewer - how robust were your testing queries?
-* Reviewer - did you post your queries to the issue? How is your communication?
-* Reviewer - did you create the pull request? 
-* Reviewer - were you thorough in your description to the pull request?
-* Both - how timely/helpful were you responding to communications?
-* Both - if your pull-request is rejected, can you work together to resolve the issue?
+- Did you work in a branch (not in master)?
+- Did you add all the collaborators you needed to at the beginning?
+- Were you descriptive and helpful in the issue assigned?
+- How elegant are your repl commands and documentation?
+- Is your database/collection/record interesting? For example what about sub-objects?
+- Does your database give evidence you read the wiki resources?
+- Reviewer - did you ACTUALLY test before approving?
+- Reviewer - how robust were your testing queries?
+- Reviewer - did you post your queries to the issue? How is your communication?
+- Reviewer - did you create the pull request?
+- Reviewer - were you thorough in your description to the pull request?
+- Both - how timely/helpful were you responding to communications?
+- Both - if your pull-request is rejected, can you work together to resolve the issue?
 
-# Pull Request Due Date: Thursday, Feb. 15
+# Pull Request Due Date: By Next Class
 
 Tips:
 
-*Do not wait to start this assignment!! You should create your development branch and push it RIGHT AWAY to show you've begun without procrastinating. Add your collaborators BEFORE you begin the work to establish your participation.*
+_Do not wait to start this assignment!! You should create your development branch and push it RIGHT AWAY to show you've begun without procrastinating. Add your collaborators BEFORE you begin the work to establish your participation._
 
-*Add/commit frequently. Always add a message to your commits. Establish history - this is MORE important than your final result*
+_Add/commit frequently. Always add a message to your commits. Establish history - this is MORE important than your final result_
 
 ### Resources
 
