@@ -28,11 +28,10 @@ Week 2
 
 We begin work on the first tier of the stack - the persistence layer. In this lesson we will use our command-line skills to create automation scripts for installing and configuring a modern no-sql database (mongo) in a Docker container.
 
-- Create a docker file
-- Build an image
+- Download a docker image
 - Launch a container
-- Automate repo cloning and execution
-- Create a database installation script
+- Use the Mongo Repl
+- Learn to assign pull requests
 
 Week 3
 
