@@ -82,13 +82,3 @@ Tips:
 _Do not wait to start this assignment!! You should create your development branch and push it RIGHT AWAY to show you've begun without procrastinating. Add your collaborators BEFORE you begin the work to establish your participation._
 
 _Add/commit frequently. Always add a message to your commits. Establish history - this is MORE important than your final result_
-
-### Resources
-
-[Setting up](https://youtu.be/J7iiWx7bS4s)
-
-[Update 1: Branching, History, Issues, Adding Collaborators](https://youtu.be/bWuprEJVFkQ)
-
-[Update 2: First Review](https://youtu.be/0Qx8ntRpNqI)
-
-[Update 3: Final Review, Pull Request](https://youtu.be/08yHeBCoRfo)
